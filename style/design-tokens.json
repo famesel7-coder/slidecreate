@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "project": "Команда и построение отношений с покупателями",
+    "format": "16:9 Full HD",
+    "size": {
+      "width": 1920,
+      "height": 1080
+    },
+    "style": "dark minimal corporate storytelling"
+  },
+  "colors": {
+    "background": {
+      "black": "#08090A",
+      "deepBlackGreen": "#010B0A",
+      "softBlack": "#050607"
+    },
+    "cards": {
+      "base": "#1D1E1F",
+      "secondary": "#2B2F30",
+      "active": "#424849",
+      "lightActive": "#555758"
+    },
+    "text": {
+      "primary": "#FFFFFF",
+      "secondary": "#DCDDDD",
+      "muted": "#959595",
+      "ghost": "#626364",
+      "veryMuted": "#3A3B3C"
+    },
+    "accent": {
+      "cyan": "#02B5C7",
+      "brightCyan": "#00D6E6",
+      "green": "#00D05A",
+      "emerald": "#02866E",
+      "deepGreen": "#084031"
+    },
+    "lines": {
+      "dark": "#2C2D2E",
+      "medium": "#4A4B4C",
+      "light": "rgba(255,255,255,0.7)"
+    }
+  },
+  "typography": {
+    "fontFamily": ["Inter", "Graphik", "Suisse Intl", "Manrope", "Arial", "sans-serif"],
+    "title": {
+      "fontSize": 76,
+      "lineHeight": 0.98,
+      "fontWeight": 800,
+      "color": "#FFFFFF"
+    },
+    "heroTitle": {
+      "fontSize": 92,
+      "lineHeight": 0.92,
+      "fontWeight": 900,
+      "color": "#FFFFFF"
+    },
+    "sectionTitle": {
+      "fontSize": 64,
+      "lineHeight": 1.02,
+      "fontWeight": 800,
+      "color": "#FFFFFF"
+    },
+    "body": {
+      "fontSize": 28,
+      "lineHeight": 1.18,
+      "fontWeight": 400,
+      "color": "#DCDDDD"
+    },
+    "small": {
+      "fontSize": 22,
+      "lineHeight": 1.15,
+      "fontWeight": 400,
+      "color": "#DCDDDD"
+    },
+    "numberHuge": {
+      "fontSize": 260,
+      "lineHeight": 0.9,
+      "fontWeight": 300
+    },
+    "numberCard": {
+      "fontSize": 44,
+      "lineHeight": 1,
+      "fontWeight": 300,
+      "color": "#FFFFFF"
+    }
+  },
+  "layout": {
+    "canvas": {
+      "width": 1920,
+      "height": 1080
+    },
+    "margins": {
+      "x": 64,
+      "y": 60
+    },
+    "columns": {
+      "gap": 48,
+      "safeContentWidth": 1792
+    },
+    "card": {
+      "radius": 32,
+      "padding": 44,
+      "gap": 20
+    },
+    "grid": {
+      "twoColumn": "left 40%, right 60%",
+      "threeColumn": "equal columns with 48px gap",
+      "statsColumnWidth": 460
+    }
+  },
+  "effects": {
+    "gradientBlob": {
+      "preferredPlacement": ["bottom-right", "bottom-center", "right-side"],
+      "blur": "soft",
+      "opacity": 0.9,
+      "colors": ["#010B0A", "#084031", "#02B5C7", "#00D05A"]
+    },
+    "shadows": {
+      "use": "minimal",
+      "cardShadow": "none or very soft"
+    }
+  },
+  "rules": {
+    "maxBulletsPerSlide": 6,
+    "maxLinesPerBodyBlock": 4,
+    "avoid": [
+      "small icons overload",
+      "dense paragraphs",
+      "random bright colors",
+      "heavy illustrations",
+      "thin unreadable text"
+    ]
+  }
+}
